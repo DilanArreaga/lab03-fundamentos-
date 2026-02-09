@@ -126,3 +126,7 @@ data object LibraryDestination
 data class PlayerDestination(
     val songId: String
 )
+
+@Serializable
+object HighlightsDestination
+
